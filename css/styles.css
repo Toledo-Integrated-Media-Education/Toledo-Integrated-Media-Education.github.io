@@ -59,13 +59,21 @@ a.list-group-item.active,[class*='-info'] {
     color:#fff;
 }
 
-#section1 {
+#about {
 	background:center no-repeat fixed url('../img/microphone-354070_1280.jpg');
 	background-size: cover;
-  color:#dedeff;
+ 	color:#dedeff;
+  	text-shadow:
+    3px 3px 0 #000,
+    /* Simulated effect for Firefox and Opera
+       and nice enhancement for WebKit */
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
 }
 
-#section2 {
+#give {
 	background-color: #e5e5ef;
     color:#686868;
 }
