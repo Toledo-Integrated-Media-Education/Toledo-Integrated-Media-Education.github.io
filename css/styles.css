@@ -11,8 +11,9 @@ author: bootply.com
 
 html,body {
 	height:100%;
-    background:center no-repeat fixed url('../img/sound-studio-407216_1280.jpg');
     background-size: cover;
+
+	/* background: #000; */
 }
 
 .icon-bar {
@@ -64,7 +65,7 @@ a.list-group-item.active,[class*='-info'] {
 		3px 3px 0 #000,
 		/* Simulated effect for Firefox and Opera
 		   and nice enhancement for WebKit */
-	   -1px -1px 0 #000,  
+	   -1px -1px 0 #000,
 		1px -1px 0 #000,
 	   -1px  1px 0 #000,
 		1px  1px 0 #000;
@@ -83,6 +84,7 @@ a.list-group-item.active,[class*='-info'] {
 
 #getInvolved {
     color: white;
+    background:center no-repeat fixed url('../img/sound-studio-407216_1280.jpg');
 }
 
 #getInvolved p,
@@ -93,18 +95,19 @@ a.list-group-item.active,[class*='-info'] {
 	padding: 0.2em;
 }
 
-#section4 {
-	background-color: #fff;
+#events {
+
     color:#444;
 }
 
-#section5,#section7,#section7 a {
-    color:#f5f5f5;
+#contact{
+    background:center no-repeat fixed url('../img/12356096225_4479e514a1_k_1280.jpg');
+		color:#f5f5f5;
 }
 
-#section6 {
-	background-color: #168ccc;
-    color:#ddd;
+#contact H2{
+	background-color: rgba(100,100,100,0.8);
+	padding: 0.2em;
 }
 
 footer {
@@ -136,6 +139,9 @@ footer .nav>li>a:hover {
 
 #mc_embed_signup{
 	color:black;
+	background:#fff;
+	clear:left;
+	font:14px Helvetica,Arial,sans-serif;
 }
 
 /*Subscribe button*/
