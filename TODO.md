@@ -1,0 +1,3 @@
+- [ ] Intro text from e-mail
+- [ ] Consider Google Forms for program application
+- [ ] "Coming May 2016" somewhere
