@@ -1,3 +1,7 @@
 body {
   color: #54585a;
 }
+
+.downArrow {
+  cursor: pointer;
+}
