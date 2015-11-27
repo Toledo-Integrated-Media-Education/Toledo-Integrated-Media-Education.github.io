@@ -1,7 +1,40 @@
+html{
+  height:100%;
+}
 body {
   color: #54585a;
+  height: 100%;
+}
+
+#top{
+  text-align: center;
+}
+
+.pane {
+  height: 99%;
+  position: relative;
 }
 
 .downArrow {
   cursor: pointer;
+  font-size: 4rem;
+  bottom: 4rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.downArrow A:hover {
+  text-decoration: none;
+}
+
+#summary {
+  max-width: 100rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 0 2rem;
+  text-align:center;
 }
