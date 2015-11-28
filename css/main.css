@@ -6,7 +6,8 @@ body {
   height: 100%;
 }
 
-#top{
+.text-center{
+  /*this broke in Bootstrap, don't know why*/
   text-align: center;
 }
 
@@ -15,10 +16,9 @@ body {
   position: relative;
 }
 
-.downArrow {
+.arrow {
   cursor: pointer;
   font-size: 4rem;
-  bottom: 4rem;
   position: absolute;
   left: 0;
   right: 0;
@@ -26,8 +26,16 @@ body {
   text-align: center;
 }
 
-.downArrow A:hover {
+.arrow A:hover{
   text-decoration: none;
+}
+
+.downArrow {
+  bottom: 3rem;
+}
+
+.upArrow {
+  position: inherit;
 }
 
 #summary {
