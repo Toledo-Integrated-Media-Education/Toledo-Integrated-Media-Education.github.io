@@ -46,3 +46,7 @@ body {
   padding: 0 2rem;
   text-align:center;
 }
+
+a[href^=mailto] {
+  font-size: 5rem;
+}
