@@ -31,11 +31,12 @@ body {
 }
 
 .downArrow {
-  bottom: 3rem;
+  bottom: -1rem;
 }
 
 .upArrow {
   position: inherit;
+  height: 1rem;
 }
 
 #summary {
@@ -49,4 +50,8 @@ body {
 
 a[href^=mailto] {
   font-size: 5rem;
+}
+
+#mc_embed_signup {
+  margin-top: 8rem;
 }
