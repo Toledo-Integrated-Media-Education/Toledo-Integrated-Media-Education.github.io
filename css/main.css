@@ -53,5 +53,25 @@ a[href^=mailto] {
 }
 
 #mc_embed_signup {
-  margin-top: 8rem;
+  position: relative;
+  top: 1rem;
+}
+
+#mc_embed_signup_scroll {
+  text-align: right;
+  position: relative;
+  left: -1rem;
+}
+
+#mc_embed_signup_scroll input[type=submit]{
+  left: 1rem;
+  position: relative;
+}
+
+#give {
+  top: 9rem;
+}
+
+#apply a i {
+  font-size: 4rem;
 }
