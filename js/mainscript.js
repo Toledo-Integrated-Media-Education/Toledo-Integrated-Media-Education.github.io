@@ -1,0 +1,38 @@
+﻿
+
+$(function () {
+
+    $('.smallicon').hover(function () {
+
+        var tempid = "#" + event.target.id;
+        
+        $((tempid)).addClass('smallhover');
+        var desc = event.target.id;
+        $('.buttondesc').text(desc).addClass('.buttondesc');
+    },
+   function () {
+       var tempid = "#" + event.target.id;
+       $((tempid)).removeClass('smallhover');
+       $('.buttondesc').text("");
+   });
+});
+
+
+$(window).scroll(function () {
+    var scrollpos = $(window).scrollTop();
+    
+    if (scrollpos > 450) {
+        $('#bighead').fadeOut('slow');
+        
+        $('#smallhead').removeClass('hideit').fadeIn('slow');
+    }
+    else {
+        $('#smallhead').fadeOut('fast').removeClass('showit');
+        $('#bighead').removeClass('hideit').addClass('showit').fadeIn('fast');
+    }
+
+
+
+
+});
+
