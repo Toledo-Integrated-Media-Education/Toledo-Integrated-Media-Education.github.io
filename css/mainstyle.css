@@ -187,15 +187,6 @@ p.button:nth-child() *  {
     visibility:hidden;
 }
 
-.intropic {
-    width:260px;
-    height:260px;
-    background-image:url("../images/logo.png");
-    border:3px solid #c6b34b;
-    border-radius:300px;
-    display:inline-block;
-    /*margin-left:20px;*/
-}
 
 .padit {
    padding-right:20px;
