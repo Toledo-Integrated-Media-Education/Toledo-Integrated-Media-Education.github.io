@@ -1,6 +1,9 @@
 ﻿
 
 $(function () {
+    
+    var x = $(window).height() - 50;
+    $('article').css('height', x);
 
     $('.smallicon').hover(function () {
 
@@ -21,13 +24,13 @@ $(function () {
 $(window).scroll(function () {
     var scrollpos = $(window).scrollTop();
     
-    if (scrollpos > 450) {
+     if (scrollpos > 450) {
         $('#bighead').fadeOut('slow');
         
-        $('#smallhead').removeClass('hideit').fadeIn('slow');
+        $('#smallhead').removeClass('hideit').slideDown('fast');
     }
     else {
-        $('#smallhead').fadeOut('fast').removeClass('showit');
+        $('#smallhead').slideUp('fast').removeClass('showit');
         $('#bighead').removeClass('hideit').addClass('showit').fadeIn('fast');
     }
 
