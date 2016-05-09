@@ -3,7 +3,7 @@
 $(function () {
     
     var x = $(window).height() - 50;
-    $('article').css('height', x);
+    $('article[id!="donatecontent"]').css('height', x);
 
     $('.smallicon').hover(function () {
 
