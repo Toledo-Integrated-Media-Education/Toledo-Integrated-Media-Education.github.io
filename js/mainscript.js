@@ -4,7 +4,8 @@ $(function () {
     
     var x = $(window).height() - 50;
     $('article[id!="donatecontent"]').css('height', x);
-
+    $('article[id!="connectcontent"]').css('height', x);
+    
     $('.smallicon').hover(function () {
 
         var tempid = "#" + event.target.id;
