@@ -138,6 +138,10 @@ tr:nth-child(odd) {
     font-weight:bolder;
 }
 
+ul {
+    list-style: none;
+}
+
 
 #connectcontent {
      margin-left:auto;
