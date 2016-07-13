@@ -4,7 +4,7 @@ $(function () {
     
     var x = $(window).height() - 50;
     $('article[id!="donatecontent"]').css('height', x);
-   $('article[id="connectcontent"]').css('height', $(window).height();)
+   $('article[id="connectcontent"]').css('height', $(window).height())
     
     $('.smallicon').hover(function () {
 
