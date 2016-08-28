@@ -122,6 +122,33 @@ p.button:nth-child() *  {
     text-align:center;
 }
 
+table.board {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid #000000;
+}
+
+table.board caption {
+    color:#832525;
+}
+
+table.board th {
+    background-color:#832525;
+    width:33%;
+}
+
+table.board td {
+    border:1px solid #000000;
+}
+
+table.board td.merged {
+    background-color:#9f6161;
+}
+
+table.board a {
+    color:#5c1a1a;
+}
 
 
 tr:nth-child(odd) {
